@@ -131,7 +131,7 @@ function handleReset() {
           onChange={handleImage}
         />
         </label>
-    <div/>  
+    </div>  
 
       {preview && (
         <>
@@ -207,5 +207,5 @@ function handleReset() {
         </div>
       )}
     </div>
-  );
-}
+      );
+    }
