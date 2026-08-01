@@ -4,7 +4,15 @@ export async function POST(request: NextRequest) {
   try {
     const formData = await request.formData();
 
-    const response = await fetch("http://127.0.0.1:8000/predict", {
+    const API_URL = process.env.FASTAPI_URL!;
+
+    const backendUrl = process.env.FASTAPI_URL;
+
+    if (!backendUrl) {
+      throw new Error("FASTAPI_URL is not configured, add the url wey railway give you... fortune use your head for the love of God. nawa ohhh.");
+    }
+
+    const response = await fetch(`${backendUrl}/predict`, {
       method: "POST",
       body: formData,
     });
