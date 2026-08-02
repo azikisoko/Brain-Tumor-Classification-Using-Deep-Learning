@@ -15,6 +15,7 @@ export async function POST(request: NextRequest) {
     const response = await fetch(`${backendUrl}/predict`, {
       method: "POST",
       body: formData,
+      cache: 'no-store'
     });
 
     if (!response.ok) {
