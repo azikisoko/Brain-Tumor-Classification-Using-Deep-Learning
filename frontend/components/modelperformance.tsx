@@ -16,12 +16,12 @@ export default function ModelPerformance() {
         <div className="mt-16 grid gap-8 md:grid-cols-3">
 
           <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
-            <h3 className="text-5xl font-bold text-sky-500">86.6%</h3>
+            <h3 className="text-5xl font-bold text-sky-500">94.94%</h3>
             <p className="mt-4 text-slate-600">Validation Accuracy</p>
           </div>
 
           <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
-            <h3 className="text-5xl font-bold text-sky-500">72.8%</h3>
+            <h3 className="text-5xl font-bold text-sky-500">94.20%</h3>
             <p className="mt-4 text-slate-600">Test Accuracy</p>
           </div>
 
