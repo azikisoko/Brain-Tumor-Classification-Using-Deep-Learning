@@ -24,7 +24,7 @@ export default function TrainingCurves() {
       <div className="mt-12 overflow-hidden rounded-2xl border bg-white p-6 shadow-lg">
 
         <Image
-            src="/metric/accuracy_loss_plot.png"
+            src="/metric/accuracy_loss_plott.png"
             alt="Training Curve"
             width={900}
             height={900}

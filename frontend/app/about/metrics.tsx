@@ -6,22 +6,22 @@ import { useInView } from "react-intersection-observer";
 const metrics = [
     {
         title: "Test Accuracy",
-        value: "72.84%",
+        value: "94.20%",
         description: "Overall classification accuracy on the test dataset.",
     },
     {
         title: "Precision",
-        value: "78%",
+        value: "94.48%",
         description: "Weighted precision across all classes.",
     },
     {
         title: "Recall",
-        value: "73%",
+        value: "94.78%",
         description: "Weighted recall across all classes.",
     },
     {
         title: "F1 Score",
-        value: "68%",
+        value: "94.57%",
         description: "Weighted F1-score balancing precision and recall.",
     },
 ];
@@ -65,8 +65,8 @@ export default function Metrics() {
                         border-slate-200/70
                         bg-white/80
                         backdrop-blur-md p-8 text-center shadow-xl transition hover:-translate-y-3
-hover:shadow-2xl:-translate-y-2 hover:-translate-y-3
-hover:shadow-2xl:shadow-xl"
+                        hover:shadow-2xl:-translate-y-2 hover:-translate-y-3
+                        hover:shadow-2xl:shadow-xl"
                     >
 
                         <p className="text-sm font-semibold uppercase tracking-wide text-sky-600">

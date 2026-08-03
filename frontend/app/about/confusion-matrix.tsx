@@ -22,14 +22,23 @@ export default function ConfusionMatrix() {
 
       </div>
 
-      <div className="mt-12 overflow-hidden rounded-2xl border bg-white p-6 shadow-lg">
+      <div className=" grid grid-cols-2 gap-40 mt-12 overflow-hidden rounded-2xl border bg-white p-6 shadow-lg">
 
         <Image
-            src="/metric/confusion_matrix.png"
-            alt="Confusion Matrix"
-            width={900}
-            height={900}
-            className="mx-auto rounded-xl"
+          src="/metric/confusion_matrixx.png"
+          alt="Confusion Matrix"
+          width={900}
+          height={900}
+          className="mx-auto rounded-xl"
+        />
+
+
+        <Image
+          src="/metric/confusion_matrix_normalized.png"
+          alt="Confusion Matrix"
+          width={900}
+          height={900}
+          className="mx-auto rounded-xl"
         />
 
       </div>

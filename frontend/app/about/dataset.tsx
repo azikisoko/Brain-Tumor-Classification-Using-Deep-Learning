@@ -6,17 +6,17 @@ const stats = [
   },
   {
     title: "Training Images",
-    value: "≈2,870",
+    value: "25,124",
     description: "Images used for model training",
   },
   {
     title: "Validation Images",
-    value: "≈575",
+    value: "2,529",
     description: "Used during training",
   },
   {
     title: "Testing Images",
-    value: "394",
+    value: "2,363",
     description: "Independent evaluation dataset",
   },
   {
