@@ -21,7 +21,7 @@ export default function Architecture() {
         </p>
 
         <h2 className="mt-3 text-4xl font-bold text-slate-900">
-          How the AI Makes a Prediction
+          How the Model Makes a Prediction
         </h2>
 
         <p className="mx-auto mt-6 max-w-3xl text-lg text-slate-600">
