@@ -36,12 +36,12 @@ export default function TechStack() {
         </p>
 
         <h2 className="mt-3 text-4xl font-bold text-slate-900">
-          Built With Modern AI Technologies
+          Built With Modern Technologies
         </h2>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-600">
           The project combines deep learning, modern web development,
-          and API technologies to create a complete end-to-end AI
+          and API technologies to create a complete end-to-end Tumor classification
           application.
         </p>
 

@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="mx-auto flex max-w-7xl flex-col items-center px-6 py-24 text-center">
 
         <span className="mb-6 rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-medium text-sky-600">
-          AI-Powered Brain MRI Classification
+          Machine Learning-Powered Brain MRI Classification
         </span>
 
         <h1 className="max-w-4xl text-5xl font-extrabold leading-tight text-slate-900 md:text-6xl">
